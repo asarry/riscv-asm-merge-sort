@@ -1,4 +1,3 @@
-# riscv-asm-merge-sort
+# Merge Sort in RISC-V assembly
 
-Merge sort algorithm written in RISC-V Assembly.
-All names and comments are in French.
+The riscv-gnu-toolchain must be installed on your computer in order to run the program.
