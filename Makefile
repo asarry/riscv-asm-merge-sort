@@ -1,4 +1,4 @@
-BINS = tri_fusion
+BINS = merge_sort
 RVDIR = /opt/riscv
 AS = $(RVDIR)/bin/riscv32-unknown-elf-gcc
 ASFLAGS = -g -c
@@ -26,4 +26,4 @@ OBJS = $(foreach f, $(BINS), $(addsuffix .o, $f)) \
 clean:
 	$(RM) $(BINS) $(OBJS) $(TMPOBJS)
 
-tri_fusion: tri_fusion.o fct_tri_fusion.o
+merge_sort: merge_sort.o fct_merge_sort.o
